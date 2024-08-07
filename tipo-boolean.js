@@ -22,3 +22,11 @@ if (estudante === 'Fernando') {
 } else {
   console.log('Quem é você?')
 }
+
+// Boolean e Number:
+
+const retornar1 = Number(true); // retorna 1
+const retornar0 = Number(false); // retorna 0
+
+console.log(retornar1);
+console.log(retornar0);
