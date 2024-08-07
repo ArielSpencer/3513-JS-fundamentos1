@@ -22,3 +22,14 @@ if (notaFinal < 7 && faltas > 3) {
 } else {
   console.log('utilizando && o aluno foi aprovado (:')
 }
+
+// ------------------------------------------------------------------------------------------------------
+// o operador ! (not/negação) inverte o valor do operando. Se o operando for true, ! retorna false. Se for false, ! retorna true.
+
+const chuva = false;
+
+if (!chuva) {
+  console.log('não está chovendo. pode ir ao parque!')
+} else {
+  console.log('está chovendo. que tal um filme?')
+}
