@@ -12,4 +12,17 @@ console.log(typeof professora); // string
 
 // por um erro no passado do js, null é tratado como tipo object:
 console.log(typeof telefoneEstudante);
-//uma forma de contornar o typeof de null:
+
+// função auxiliar para contornar o typeof de null = object:
+console.log('contornando null = object:')
+function tipoDe(valor) {
+  if (valor === null) {
+    return 'null';
+  }
+  return typeof valor;
+}
+
+console.log(tipoDe(null));        // "null"
+console.log(tipoDe(31));          // "number"
+console.log(tipoDe('texto'));     // "string"
+console.log(tipoDe({}));          // "object"
